@@ -14,5 +14,6 @@ To generate QR-code and the text to init the bitmap data in the sketch run:
 ```
 python generate_qr_text.py
 ```
+* You need to install the library qrcode with pip by running: `pip3 install qrcode[pil]` (`pil` is the python image library)
 * Note that ypur bitmap data needs to be in whole bytes for the display to display the bitmap properly. This is the reason that the data is padded with zeros.
 * Note that you seem to need the PROGMEM modifier after the type declaration in the arduino sketch for the data to behave correctly.

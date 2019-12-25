@@ -101,7 +101,7 @@ bool shouldDisplay(long t)
 
 void handleRoot()
 {
-    server.send(200, "text/html", "<h1>God jul Pappa önskar Martin!</h1>");
+    server.send(200, "text/html", "<h1>God jul Pappa önskar Martin!</h1><br><br>Källkoden för det här projektet få bli en julklapp till dig. Finns att hitta på github på <a href='https://github.com/martinclason/PappaJulklappJulIoT19'>martinclason/PappaJulklappJulIoT19</a><br><br>Du är bäst!");
 }
 
 void setup()
