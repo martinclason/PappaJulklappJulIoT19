@@ -1,4 +1,9 @@
 # Project JulIoT
+This was a small project I threw together during christmas 2019. My father and his small tech business was eager to learn more about IoT and if it was possible to use this little processor together with it's wifi-chip to serve a basic website. I read about it and created this repo and figured this repo would be quite the unusual christmas gift for him, so why not?
+
+![Wemos board hanging in the christmas tree](juliot_i_gran.png)
+
+I programmed the little Wemos ESP32 board and connected it to an OLED-display. Using the tiny OLED-display I could just about fit a QR-code containing the link to the website served by the processor. The processor created a public WiFi-network when booted and if you connected to this and scanned the QR-code, the website would show up on your phone.
 
 ## How to compile and flash board
 Execute this command in the project directory:
